@@ -1,0 +1,37 @@
+{
+  "name": "telugu-lang",
+  "version": "0.1.0",
+  "description": "Telugu-based programming language that transpiles to JavaScript",
+  "main": "dist/cli.js",
+  "bin": {
+    "mana": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli.ts",
+    "test": "jest",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "telugu",
+    "programming-language",
+    "transpiler",
+    "telugu-lang"
+  ],
+  "author": "mana-ai contributors",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
